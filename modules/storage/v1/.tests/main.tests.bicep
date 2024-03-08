@@ -3,7 +3,7 @@ param location string = resourceGroup().location
 module basic_storage '../main.bicep' = {
   name: 'sttest002'
   params: {
-    sku: 'Standard_LRS'
+    sku: 'Standard_GRS'
     location: location
   }
 }
