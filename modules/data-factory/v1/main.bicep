@@ -6,10 +6,4 @@ resource dataFactory 'Microsoft.DataFactory/factories@2018-06-01' = {
   name: name
   location: location
   tags: tags
-  identity: {
-    type: 'SystemAssigned'
-  }
-  properties: {
-    publicNetworkAccess: 'Enabled'
-  }
 }
